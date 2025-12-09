@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' https:; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline';">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Me</a>
+        <a href="articles.html">Articles</a>
+    </nav>
+</header>
+
+<main>
+    <h1>Welcome</h1>
+    <p>This website showcases my background, technical work, and published articles.</p>
+
+    <section class="newsletter">
+        <h2>Subscribe to Newsletter</h2>
+        <div class="subscribe-form">
+            <input type="email" id="email" placeholder="Enter your email" aria-label="Email address">
+            <button onclick="subscribe()">Subscribe</button>
+        </div>
+        <p class="note">Your email will be handled securely via our serverless API.</p>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2025 Your Name</p>
+</footer>
+
+<script src="scripts/subscribe.js"></script>
+</body>
+</html>

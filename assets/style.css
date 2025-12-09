@@ -1,0 +1,140 @@
+/* Global Styles */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Header & Navigation */
+header {
+    padding: 16px 24px;
+    border-bottom: 1px solid #e0e0e0;
+    background: #fff;
+}
+
+nav a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+nav a:hover {
+    color: #0066cc;
+}
+
+/* Main Content */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 24px;
+}
+
+h1 {
+    margin-top: 0;
+    font-size: 2em;
+    color: #222;
+}
+
+h2 {
+    margin-top: 32px;
+    font-size: 1.5em;
+    color: #444;
+}
+
+/* Newsletter Section */
+.newsletter {
+    margin-top: 40px;
+    padding: 24px;
+    background: #f8f9fa;
+    border-radius: 8px;
+}
+
+.subscribe-form {
+    display: flex;
+    gap: 8px;
+    margin-top: 16px;
+}
+
+input[type="email"] {
+    flex: 1;
+    padding: 10px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+button {
+    padding: 10px 20px;
+    background: #0066cc;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background 0.2s;
+}
+
+button:hover {
+    background: #0052a3;
+}
+
+.note {
+    margin-top: 8px;
+    font-size: 13px;
+    color: #666;
+}
+
+/* Article List */
+.article-list {
+    list-style: none;
+    padding: 0;
+}
+
+.article-list li {
+    margin: 16px 0;
+}
+
+.article-list a {
+    text-decoration: none;
+    color: #0066cc;
+    font-size: 18px;
+}
+
+.article-list a:hover {
+    text-decoration: underline;
+}
+
+/* Article Content */
+article {
+    line-height: 1.8;
+}
+
+article p {
+    margin: 16px 0;
+}
+
+/* Footer */
+footer {
+    margin-top: 60px;
+    padding: 24px;
+    text-align: center;
+    border-top: 1px solid #e0e0e0;
+    color: #666;
+    font-size: 14px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .subscribe-form {
+        flex-direction: column;
+    }
+    
+    nav a {
+        display: inline-block;
+        margin: 8px 12px 8px 0;
+    }
+}
